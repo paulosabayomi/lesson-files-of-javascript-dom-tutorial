@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Form Validation</h1>
+
+    <form action="index.html" id="page-form" novalidate>
+        <input type="text" name="first-input" id="text-input-1" 
+            placeholder="enter a text">
+            <br><br>
+        <input type="text" name="second-input" id="text-input-2"
+            placeholder="enter another text" required aria-required="true">
+            <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+</html>
